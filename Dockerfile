@@ -1,7 +1,7 @@
 FROM node:12-alpine
 LABEL maintainer="Mustafa Tozlu"
 VOLUME /public
-WORKDIR /
+WORKDIR /srv/http-server
 COPY package.json yarn.lock ./
 RUN yarn install --production
 COPY . .
