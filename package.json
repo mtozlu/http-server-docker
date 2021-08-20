@@ -1,9 +1,9 @@
 {
   "name": "http-server-docker",
-  "version": "1.0.0",
+  "version": "13.0.1",
   "private": true,
   "description": "http-server dockerized",
   "dependencies": {
-    "http-server": "^0.12.3"
+    "http-server": "^13.0.1"
   }
 }
