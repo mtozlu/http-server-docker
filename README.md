@@ -4,7 +4,7 @@ Serve any local directory over http/https using docker without any dependencies.
 
 Uses http-server (https://www.npmjs.com/package/http-server) inside container.
 
-This repository uses same version with http-server (https://github.com/http-party/http-server). Current version is `13.0.1`.
+This repository uses same version with http-server (https://github.com/http-party/http-server).
 
 ## Running
 
