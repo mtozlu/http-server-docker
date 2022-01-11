@@ -23,3 +23,9 @@ docker run -d -p 8080:8080 -v "$(PWD):/public" tozlu/http-server "-c-1"
 ```
 `-c-1` command at the end is passed to http-server options. It disables caching of served files.
 There many more options such as enabling https, using brotli compression, etc.
+
+## Building Docker Image
+
+`docker build -t tozlu/http-server-docker:{new-version} -t tozlu/http-server-docker:latest .`
+`docker push tozlu/http-server-docker:{new-version}`
+`docker push tozlu/http-server-docker:latest`
